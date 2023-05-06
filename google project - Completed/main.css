@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    margin: 17px 21px 17px 21px;
+}
+
+nav ul li, nav a{
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.leftnav {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.rightnav {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+.guest img {
+    width: 40px;
+    top: 1px;
+    position: absolute;
+    padding-left: 5px;
+}
+
+
+/* container */
+
+.container {
+    text-align: center;
+    padding: 40px 10px 0 10px;
+}
+
+.googleLogo {
+    margin: 90px 0 0 0;
+}
+
+.search {
+    margin: 30px 0px 50px 0px;
+}
+
+.search button {
+    outline: none;
+    border-color: transparent;
+}
+
+.searchbar {
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.searchlick {
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: start;
+    display: none;
+    margin-left: 43%;
+}
+
+.shadow {
+    margin-top: 10px;
+    color: transparent;
+    width: 50%;
+    margin-left: -10vh;
+    box-shadow: 0 5px 43px -6px black;
+}
+
+.searchlick li {
+    padding-top: 15px;
+}
+
+.searchIcon {
+    width: 15px;
+    margin-right: 20px;
+}
+
+#searchicon {
+    padding-left: 25px;
+}
+
+.searchIcons {
+    width: 26px;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+/* results js*/
+
+.results {
+    list-style: none;
+    padding-right: 400px;
+    padding-top: 10px;
+}
+
+.resul
+
+/* under searchbar */
+.underbar {
+    margin-right: 25px;
+    color: #3c4043;
+}
+
+.underbar ul li, .underbar a{
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 27px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* footer */
+
+footer ul li, footer ul li a {
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 15px;
+    color: #37383b;
+}
+
+.bottomleft {
+    bottom: 18px;
+    left: 20px;
+    position: absolute;
+}
+
+.bottomcenter {
+    bottom: 18px;
+    right: 45%;
+    position: absolute;
+}
+
+.bottomcenter img {
+    width: 15px;
+    height: 18px;
+    padding-right: 8px;
+    margin-bottom: -2px;
+}
+
+.bottomright {
+    bottom: 18px;
+    right: 50px;
+    position: absolute;
+}
+
+/* hover  */
+a:hover {
+    text-decoration: underline;
+}
